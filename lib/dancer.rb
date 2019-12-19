@@ -11,6 +11,8 @@ class Dancer
     @name = name 
   end 
     extend MetaDancing
+  end 
     extend FancyDance :: ClassMethods 
     include FancyDance :: InstanceMethods 
+end
 end 
